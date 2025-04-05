@@ -7,9 +7,9 @@ function Hero() {
         <div class="banner-text">
           <h1 class="banner-title">Samuel Gonz&aacute;lez</h1>
           <h2 class="banner-subtitle">
-            Desarollo profesional de sitios web para negocios, empresas o uso personal y profesional
+            Desarrollo profesional de sitios web para negocios, empresas o uso personal y profesional
           </h2>
-          <button class="banner-button">Ver Proyectos</button>
+          <button class="banner-button">Ver Proyectos 👀</button>
         </div>
       </div>
     </section>
