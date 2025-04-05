@@ -5,6 +5,7 @@ import { Hero } from './features/Hero/Hero'
 import { Skills } from './features/Skills/Skills'
 import { About } from './features/About/About'
 import { Projects } from './features/Projects/Projects'
+import { Services } from './features/Services/Services'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <About />
       <Projects />
+      <Services />
     </>
   )
 }

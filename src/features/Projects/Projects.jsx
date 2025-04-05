@@ -15,58 +15,58 @@ function Projects() {
           </p>
         </div>
 
-        <div className="cards">
-          <div className="card">
-            <div className="card-image">
+        <div className="projects-cards">
+          <div className="projects-card">
+            <div className="projects-card-image">
               <img 
                 src="/src/assets/images/quicknotes.jpeg" 
                 alt="Proyecto QuickNotes" 
-                className="card-img"
+                className="projects-card-img"
               />
             </div>
-            <div className="card-text">
-              <h3 className="card-title">QuickNotes</h3>
-              <p className="card-description">
+            <div className="projects-card-text">
+              <h3 className="projects-card-title">QuickNotes</h3>
+              <p className="projects-card-description">
                 Aplicación de notas con Markdown y sincronización en tiempo real. 
                 Desarrollada con React y Firebase.
               </p>
-              <button className="card-button">Ver Demo 👀</button>
+              <button className="projects-card-button">Ver Demo 👀</button>
             </div>
           </div>
 
-          <div className="card">
-            <div className="card-image">
+          <div className="projects-card">
+            <div className="projects-card-image">
               <img 
                 src="/src/assets/images/react-big.png" 
                 alt="Proyecto React" 
-                className="card-img"
+                className="projects-card-img"
               />
             </div>
-            <div className="card-text">
-              <h3 className="card-title">Component Library</h3>
-              <p className="card-description">
+            <div className="projects-card-text">
+              <h3 className="projects-card-title">Component Library</h3>
+              <p className="projects-card-description">
                 Biblioteca reutilizable de componentes React con Storybook. 
                 Diseño sistemático y documentación interactiva.
               </p>
-              <button className="card-button">Ver Demo 👀</button>
+              <button className="projects-card-button">Ver Demo 👀</button>
             </div>
           </div>
 
-          <div className="card">
-            <div className="card-image">
+          <div className="projects-card">
+            <div className="projects-card-image">
               <img 
                 src="/src/assets/images/nodejs-big.png" 
                 alt="Proyecto Node.js" 
-                className="card-img"
+                className="projects-card-img"
               />
             </div>
-            <div className="card-text">
-              <h3 className="card-title">API Ecommerce</h3>
-              <p className="card-description">
+            <div className="projects-card-text">
+              <h3 className="projects-card-title">API Ecommerce</h3>
+              <p className="projects-card-description">
                 Backend escalable para plataforma de comercio electrónico. 
                 JWT, MongoDB y despliegue en AWS.
               </p>
-              <button className="card-button">Ver Demo 👀</button>
+              <button className="projects-card-button">Ver Demo 👀</button>
             </div>
           </div>
         </div>
