@@ -17,6 +17,14 @@
     align-items: stretch;
 }
 
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .contact-title {
     font-family: var(--font-titles);
     font-size: var(--size-titles);
