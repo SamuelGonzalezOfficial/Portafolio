@@ -1,0 +1,27 @@
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    text-align: center;
+    font-family: var(--font-titles);
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.banner-subtitle {
+    text-align: center;
+    font-family: var(--font-subtitles);
+    font-size: var(--size-subtitles);
+    font-weight: 300;
+    margin: 0.5rem 0 2rem 0;
+}
+
+@media (max-width: 500px){
+    .banner-title {
+        font-size: 4rem;
+    }
+}
