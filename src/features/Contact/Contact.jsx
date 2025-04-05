@@ -6,14 +6,18 @@ function Contact() {
       <div class="contact-content">
         <div class="contact-box">
           <div class="contact-header">
-            <h2 class="contact-title">Get in Touch</h2>
+            <h2 class="contact-title">Cont&aacute;ctame</h2>
             <p class="contact-subtitle">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-              eius.
+              ¿Tienes una idea, proyecto o negocio que necesita presencia
+              online? Escríbeme y conversemos. Estoy disponible para responder
+              tus dudas y ayudarte a encontrar la mejor solución digital para lo
+              que necesitas.
             </p>
+            <p className="contact-text">+56 9 3290 9467 solo Whatsapp</p>
+            <p className="contact-text">gonzalez.samuelalejandro@outlook.com</p>
           </div>
 
-          <form action="#" class="form">
+          {/* <form action="#" class="form">
             <input
               type="text"
               name="name"
@@ -42,7 +46,7 @@ function Contact() {
             <button class="form-button" type="submit">
               Submit
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
