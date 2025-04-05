@@ -56,8 +56,8 @@
     border-radius: 0;
 
     font-family: var(--font-text);
-    font-size: var(--size-text);
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 [class$="-button"]:hover {
