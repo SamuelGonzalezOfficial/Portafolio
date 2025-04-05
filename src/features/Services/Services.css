@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .services-title {
@@ -23,8 +24,9 @@
 
 .services-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: stretch;
+    gap: 20px;
 }
 
 /* Cards */
@@ -35,7 +37,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    margin: 20px;
     border: 1px solid var(--text-color);
     border-radius: 5px;
 }
@@ -54,13 +55,8 @@
 }
 
 /* Responsive Design */
-@media (max-width: 918px) {
+@media (max-width: 1080px) {
     .services-items {
         flex-direction: column;
-    }
-
-    .services-card {
-        margin: 10px auto;
-        width: 90%;
     }
 }

@@ -6,6 +6,7 @@ import { Skills } from './features/Skills/Skills'
 import { About } from './features/About/About'
 import { Projects } from './features/Projects/Projects'
 import { Services } from './features/Services/Services'
+import { Contact } from './features/Contact/Contact'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Projects />
       <Services />
+      <Contact />
     </>
   )
 }
