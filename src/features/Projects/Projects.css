@@ -24,6 +24,7 @@
 }
 
 .projects-cards {
+    width: 100%;
     display: grid;
     gap: 2rem;
     margin-top: 3rem;

@@ -24,7 +24,7 @@ function Services() {
               sociales. Ideal para captar clientes, agendar reuniones o mostrar
               lo que haces de forma clara y atractiva.
             </p>
-            <button class="services-card-button">Explore</button>
+            <button class="services-card-button">Cotizar 🪙</button>
           </div>
 
           <div class="services-card">
@@ -39,7 +39,7 @@ function Services() {
               necesidades. Ideal para negocios con alta demanda de atención,
               reservas o productos digitales.
             </p>
-            <button class="services-card-button">Explore</button>
+            <button class="services-card-button">Cotizar 🪙</button>
           </div>
 
           <div class="services-card">
@@ -54,7 +54,7 @@ function Services() {
               profesional pensada para vender de forma simple y efectiva, sin
               depender de plataformas genéricas.
             </p>
-            <button class="services-card-button">Explore</button>
+            <button class="services-card-button">Cotizar 🪙</button>
           </div>
         </div>
       </div>
