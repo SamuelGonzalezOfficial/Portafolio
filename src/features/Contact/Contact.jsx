@@ -1,8 +1,15 @@
 import "./Contact.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   return (
-    <section class="contact-container">
+    <section class="contact-container" data-aos="fade-up">
       <div class="contact-content">
         <div class="contact-box">
           <div class="contact-header">

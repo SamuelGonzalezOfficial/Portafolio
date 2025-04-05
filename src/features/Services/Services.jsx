@@ -1,19 +1,26 @@
 import "./Services.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Services() {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   return (
     <section class="services-container">
       <div class="services-content">
         <div class="services-header">
-          <h2 class="services-title">Servicios Profesionales</h2>
-          <p class="services-description">
+          <h2 class="services-title" data-aos="fade-up">Servicios Profesionales</h2>
+          <p class="services-description" data-aos="fade-up">
             Ofrezco desarrollo web Full-Stack con enfoque en rendimiento, diseño
             y escalabilidad, para transformar ideas en productos digitales
             sólidos y atractivos.
           </p>
         </div>
 
-        <div class="services-items">
+        <div class="services-items" data-aos="fade-up">
           <div class="services-card">
             <h3 class="services-card-title">Landing Page Express en 48h 🚀</h3>
             <p class="services-card-text">

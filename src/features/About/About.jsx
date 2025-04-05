@@ -1,15 +1,22 @@
 import "./About.css";
 import Lottie from "lottie-react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 //Image
 import animationData from "../../assets/images/animation.json";
 
 function About() {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   return (
     <section class="section-container">
       <div class="section-content">
         <div class="box">
-          <div class="box-info">
+          <div class="box-info" data-aos="fade-right">
             <h3 class="box-title">
               Transformando ideas en experiencias digitales
             </h3>
@@ -28,7 +35,7 @@ function About() {
             <button class="box-button">¡Interesante! 😀</button>
           </div>
 
-          <div class="box-image">
+          <div class="box-image" data-aos="fade-left">
             <Lottie animationData={animationData} loop={true} />
           </div>
         </div>
