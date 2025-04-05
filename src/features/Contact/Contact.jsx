@@ -9,8 +9,8 @@ function Contact() {
   }, []);
 
   return (
-    <section class="contact-container" data-aos="fade-up">
-      <div class="contact-content">
+    <section class="contact-container">
+      <div class="contact-content" data-aos="fade-up">
         <div class="contact-box">
           <div class="contact-header">
             <h2 class="contact-title">Cont&aacute;ctame</h2>
