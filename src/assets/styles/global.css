@@ -12,7 +12,7 @@
     --font-subtitles: "Montserrat", sans-serif;
     --font-text: "Montserrat", sans-serif;
 
-    --size-titles: 3rem;
+    --size-titles: 2.5rem;
     --size-subtitles: 1.1rem;
     --size-text: 0.9rem;
 
@@ -52,8 +52,8 @@
 
     color: var(--text-color);
     background: var(--main-color);
-    border: none;
-    border-radius: 5px;
+    border: 2px solid var(--text-color);
+    border-radius: 0;
 
     font-family: var(--font-text);
     font-size: var(--size-text);
