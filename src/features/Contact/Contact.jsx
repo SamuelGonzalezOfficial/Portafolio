@@ -20,7 +20,6 @@ function Contact() {
               tus dudas y ayudarte a encontrar la mejor solución digital para lo
               que necesitas.
             </p>
-            <p className="contact-text">+56 9 3290 9467 solo Whatsapp</p>
             <p className="contact-text">gonzalez.samuelalejandro@outlook.com</p>
           </div>
 

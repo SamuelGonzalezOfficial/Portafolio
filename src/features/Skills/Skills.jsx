@@ -22,15 +22,15 @@ function Skills() {
 
   return (
     <section class="skills-container">
-      <div class="skills-content">
+      <div class="skills-content" data-aos="fade-up">
         <div class="skills-header">
-          <h2 class="skills-title" data-aos="fade-up">Habilidades</h2>
-          <p class="skills-description" data-aos="fade-up">
+          <h2 class="skills-title">Habilidades</h2>
+          <p class="skills-description">
             Una selección de tecnologías y herramientas que domino y aplico en
             proyectos reales.
           </p>
         </div>
-        <div className="skills-box" data-aos="fade-up">
+        <div className="skills-box">
           <div className="skill">
             <img src={html} alt="" className="skill-img" />
           </div>

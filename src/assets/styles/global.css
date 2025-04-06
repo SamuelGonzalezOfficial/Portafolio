@@ -4,6 +4,7 @@
 /* Variables CSS */
 :root {
     --main-color: #2aecbb;
+    --main-color-hover: #9df3dd;
     --secondary-color: #ffffff;
 
     --text-color: #202427;
@@ -26,6 +27,25 @@
     box-sizing: border-box;
 }
 
+body {
+    z-index: -1;
+    background-size: 70px 70px;
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    animation: gridMove 10s linear infinite;
+}
+
+@keyframes gridMove {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 40px 40px;
+    }
+}
+
 [class$="-container"] {
     min-height: 100vh;
     padding: 20px;
@@ -45,21 +65,30 @@
 }
 
 [class$="-button"] {
-    padding: 20px;
+    padding: 1rem 1.7rem;
+    width: 230px;
+    display: inline-block;
 
-    width: 250px;
-    display: block;
-
-    color: var(--text-color);
-    background: var(--main-color);
-    border: 2px solid var(--text-color);
-    border-radius: 0;
+    color: var(--text-on-main);
+    /* Mejor contraste sobre fondo */
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 0.75rem;
 
     font-family: var(--font-text);
-    font-size: 1.1rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 [class$="-button"]:hover {
+    background-color: var(--main-color-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
     cursor: pointer;
 }

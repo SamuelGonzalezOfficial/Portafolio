@@ -16,11 +16,11 @@
     text-align: center;
     font-family: var(--font-subtitles);
     font-size: var(--size-subtitles);
-    font-weight: 300;
+    font-weight: 400;
     margin: 0.5rem 0 2rem 0;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
     .banner-title {
         font-size: 4rem;
     }

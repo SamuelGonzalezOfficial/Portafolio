@@ -12,7 +12,9 @@ function Projects() {
     <section class="projects-container">
       <div class="projects-content">
         <div class="projects-header">
-          <h2 class="projects-title" data-aos="fade-up">Proyectos</h2>
+          <h2 class="projects-title" data-aos="fade-up">
+            Proyectos
+          </h2>
           <p class="projects-description" data-aos="fade-up">
             Una colección de proyectos desarrollados como parte de mi formación
             continua y exploración creativa. Cada uno fue diseñado para
@@ -32,10 +34,11 @@ function Projects() {
               />
             </div>
             <div className="projects-card-text">
-              <h3 className="projects-card-title">QuickNotes</h3>
+              <h3 className="projects-card-title">Nombre del Proyecto</h3>
               <p className="projects-card-description">
-                Aplicación de notas con Markdown y sincronización en tiempo
-                real. Desarrollada con React y Firebase.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                obcaecati maxime consequatur tenetur praesentium accusantium
+                ducimus quia asperiores nesciunt. Impedit?
               </p>
               <button className="projects-card-button">Ver Demo 👀</button>
             </div>
@@ -44,16 +47,17 @@ function Projects() {
           <div className="projects-card">
             <div className="projects-card-image">
               <img
-                src="/src/assets/images/react-big.png"
+                src="/src/assets/images/quicknotes.jpeg"
                 alt="Proyecto React"
                 className="projects-card-img"
               />
             </div>
             <div className="projects-card-text">
-              <h3 className="projects-card-title">Component Library</h3>
+              <h3 className="projects-card-title">Nombre del Proyecto</h3>
               <p className="projects-card-description">
-                Biblioteca reutilizable de componentes React con Storybook.
-                Diseño sistemático y documentación interactiva.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                obcaecati maxime consequatur tenetur praesentium accusantium
+                ducimus quia asperiores nesciunt. Impedit?
               </p>
               <button className="projects-card-button">Ver Demo 👀</button>
             </div>
@@ -62,16 +66,17 @@ function Projects() {
           <div className="projects-card">
             <div className="projects-card-image">
               <img
-                src="/src/assets/images/nodejs-big.png"
+                src="/src/assets/images/quicknotes.jpeg"
                 alt="Proyecto Node.js"
                 className="projects-card-img"
               />
             </div>
             <div className="projects-card-text">
-              <h3 className="projects-card-title">API Ecommerce</h3>
+              <h3 className="projects-card-title">Nombre del Proyecto</h3>
               <p className="projects-card-description">
-                Backend escalable para plataforma de comercio electrónico. JWT,
-                MongoDB y despliegue en AWS.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                obcaecati maxime consequatur tenetur praesentium accusantium
+                ducimus quia asperiores nesciunt. Impedit?
               </p>
               <button className="projects-card-button">Ver Demo 👀</button>
             </div>
