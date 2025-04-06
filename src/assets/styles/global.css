@@ -7,7 +7,7 @@
     --main-color-hover: #9df3dd;
     --secondary-color: #ffffff;
 
-    --text-color: #202427;
+    --text-color: #000; /* #202427 */
 
     --font-titles: "Montserrat", sans-serif;
     --font-subtitles: "Montserrat", sans-serif;
@@ -69,7 +69,7 @@ body {
     width: 230px;
     display: inline-block;
 
-    color: var(--text-on-main);
+    color: var(--text-color);
     /* Mejor contraste sobre fondo */
     background-color: var(--main-color);
     border: none;
@@ -91,4 +91,9 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
     cursor: pointer;
+}
+
+[class$="-button-link"] {
+    color: var(--text-color);
+    text-decoration: none;
 }

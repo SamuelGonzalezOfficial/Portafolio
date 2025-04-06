@@ -3,6 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+//Images
+import tacosPage from "../../assets/images/tacos-page.png";
+
 function Projects() {
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
@@ -28,19 +31,30 @@ function Projects() {
           <div className="projects-card">
             <div className="projects-card-image">
               <img
-                src="/src/assets/images/quicknotes.jpeg"
-                alt="Proyecto QuickNotes"
+                src={tacosPage}
+                alt="Proyecto Node.js"
                 className="projects-card-img"
               />
             </div>
             <div className="projects-card-text">
-              <h3 className="projects-card-title">Nombre del Proyecto</h3>
+              <h3 className="projects-card-title">
+                Landing Page Restaurante 🍽️
+              </h3>
               <p className="projects-card-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                obcaecati maxime consequatur tenetur praesentium accusantium
-                ducimus quia asperiores nesciunt. Impedit?
+                Este es un sitio One-Page construído con ReactJS ideal para
+                pequeños negocios que buscan una presencia el línea lo más
+                rápido posible para presentar su negocio al mundo. Incluye la
+                ubicación del negocio en un Google Maps, botón para ir a un chat
+                de Whatsapp con su negocios y demás.
               </p>
-              <button className="projects-card-button">Ver Demo 👀</button>
+              <button className="projects-card-button">
+                <a
+                  href="https://sample-taco.vercel.app/"
+                  className="projects-card-button-link"
+                >
+                  Ver Demo 👀
+                </a>
+              </button>
             </div>
           </div>
 
@@ -59,26 +73,14 @@ function Projects() {
                 obcaecati maxime consequatur tenetur praesentium accusantium
                 ducimus quia asperiores nesciunt. Impedit?
               </p>
-              <button className="projects-card-button">Ver Demo 👀</button>
-            </div>
-          </div>
-
-          <div className="projects-card">
-            <div className="projects-card-image">
-              <img
-                src="/src/assets/images/quicknotes.jpeg"
-                alt="Proyecto Node.js"
-                className="projects-card-img"
-              />
-            </div>
-            <div className="projects-card-text">
-              <h3 className="projects-card-title">Nombre del Proyecto</h3>
-              <p className="projects-card-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                obcaecati maxime consequatur tenetur praesentium accusantium
-                ducimus quia asperiores nesciunt. Impedit?
-              </p>
-              <button className="projects-card-button">Ver Demo 👀</button>
+              <button className="projects-card-button">
+                <a
+                  href="https://sample-taco.vercel.app/"
+                  className="projects-card-button-link"
+                >
+                  Ver Demo 👀
+                </a>
+              </button>
             </div>
           </div>
         </div>
